@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <meta charset="utf-8" />
+    <meta charset="utf-8" />
     <title>My Resume</title>
+    <link href="css/style.css" rel="stylesheet"/>
   </head>
-    <body>
-      <img src="jacqueline2.jpg" alt="Jacqueline Levine" />
-      <h1><strong>Jacqueline T. Levine</strong></h1>
+  <body>
+    <div id="container">
+      <header>
+      <h1>Jacqueline T. Levine</h1>
         <h2>Multimedia Journalist</h2>
-          <p>Address/Phone Number/Email (not listed for safety)</p>
-
+          <p>jacquelinelevine13@gmail.com</p>
+            <img src="jacqueline2.jpg" alt="Jacqueline Levine" />
+              <nav>
+                <ul>
+                  <li><a href="#education">Eductation</a></li>
+                  <li><a href="#experience">Experience</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                </ul>
+              </nav>
+          </header>
+          <main>
+            <section id="education">
           <h2>EDUCATION</h2>
             <h3><a href="https://welcome.miami.edu/">University of Miami</a></h3>
               <p>B.S. Broadcast Journalism</p>
@@ -17,7 +29,9 @@
               <h3><a href="https://www.ucr.edu/">University of California, Riverside</a></h3>
                 <p>B.S. Business Administration</p>
                 <p>Honors: Dean's List</p>
+              </section>
 
+              <section id="experience">
             <h2>EXPERIENCE</h2>
               <h3><a href="http://umtv.miami.edu/">University of Miami Television</a></h3>
               <h4>Reporter</h4>
@@ -45,6 +59,9 @@
               <li>Drafted over 20 pieces of various subjects that would entertain college students within the UCR community and throughout the United States and garnered thousands of views on articles</li>
               <li>Proofread and edited 10-15 weekly articles from all writers to ensure that all submissions are cohesive and error free</li>
             </ul>
+          </section>
+
+      <section id="skills">
             <h2>SKILLS</h2>
             <ul>
               <li>Adobe Premiere Pro</li>
@@ -53,7 +70,9 @@
               <li>Microsoft Office</li>
               <li>Knowledge with cameras including Sony PXW-Z100 and Canon 5D</li>
               <li>Spanish</li>
-            </ul>
-
-
-    </body>
+                </ul>
+              </section>
+            </main>
+          </div>
+        </body>
+    </html>

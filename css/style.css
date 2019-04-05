@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:700|Noto+Sans');
+
+h1{
+  font-family: "Merriweather", serif;
+  font-weight: 700px
+}
+
+h2{
+  font-family: "Noto Sans", "Helvetica", sans-serif;
+}
+
+nav{
+  border: 10px;
+  font-family: "Noto Sans", "Helvetica", sans-serif;
+}
+
+img {
+  float: left;
+  padding: 5px;
+  border-style: dotted;
+  border-color: white;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Helvetica", sans-serif;
+  line-height: 1;
+  letter-spacing: 0.2px;
+  color: black;
+  background-color: pink;
+  width  : 400px;
+  height : 2.5em;
+  padding: 1em 1em 1em 1em;
+  border : 3px black;
+}
+
+main{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 960px;
+}
+
+
+#education {
+  float: left;
+  width: 500px;
+  padding: 10px;
+}
+
+#experience {
+  float: left;
+  width: 500px;
+  margin-bottom: 100px;
+}
+
+#skills {
+  float: left;
+  width: 500px;
+}
+
+#container{
+  display: grid;
+  max-width: 960px;
+}
+
+a:link{
+  color: blue;
+}
+
+a:visited{
+  color: purple;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: white;
+}
