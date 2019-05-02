@@ -1,17 +1,36 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:700|Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Roboto+Condensed');
 
 h1{
-  font-family: "Merriweather", serif;
-  font-weight: 700px
+  font-family: "Crimson Text", serif;
 }
 
 h2{
-  font-family: "Noto Sans", "Helvetica", sans-serif;
+  font-family: "Crimson Text", serif;
+}
+
+header{
+  margin-top: 46px;
+  padding-left: 10px;
 }
 
 nav{
-  border: 10px;
-  font-family: "Noto Sans", "Helvetica", sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-family: "Roboto Condensed", "Helvetica", sans-serif;
+}
+
+nav ul{
+  margin: 0 0 0 20px;
+  padding-left: 0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 30px;
+  padding: 10px 0;
 }
 
 img {
@@ -23,58 +42,67 @@ img {
 
 body {
   font-size: 18px;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Roboto Condensed","Helvetica", sans-serif;
   line-height: 1;
   letter-spacing: 0.2px;
   color: black;
-  background-color: pink;
-  width  : 400px;
+  background-color: rgb(255, 153, 194);
   height : 2.5em;
   padding: 1em 1em 1em 1em;
   border : 3px black;
 }
 
-main{
+main {
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  width: 960px;
-}
-
-
-#education {
-  float: left;
-  width: 500px;
-  padding: 10px;
-}
-
-#experience {
-  float: left;
-  width: 500px;
-  margin-bottom: 100px;
-}
-
-#skills {
-  float: left;
-  width: 500px;
-}
+  max-width: 960px;
+  padding: 15px;
+  column-gap: 25px;
+  }
 
 #container{
-  display: grid;
   max-width: 960px;
+  margin: 0 auto;
+  display: grid;
+  background-color: rgb(255,182,193);
+  margin-top: 10px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+#photo1 {
+  position: relative;
+  top: -300px;
+  left: 500px;
+}
+
+#photo2 {
+  position: relative;
+  top: -515px;
+  left: 500px;
+}
+
+#photo3 {
+  position: relative;
+  bottom: -10px;
+  right: -210px;
 }
 
 a:link{
-  color: blue;
+  color: rgb(255, 255, 255);
 }
 
 a:visited{
-  color: purple;
+  color: rgb(255, 77, 148);
 }
 
 a:hover {
-  color: red;
+  color: rgb(230, 0, 92);
 }
 
 a:active {
-  color: white;
+  color: rgb(0, 0, 0);
 }
